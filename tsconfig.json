@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+  
+      /* Basic Options */                       
+      "target": "es5",                       /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+      "module": "commonjs",                  /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd' or 'es2015'. */
+      "lib": [],                             /* Specify library files to be included in the compilation:  */
+      
+      "jsx": "preserve",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+      "moduleResolution": "node",
+      "allowJs": true,                       /* Allow JavaScript files to be compiled. */
+      "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+      "esModuleInterop": true,
+      "preserveSymlinks": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "sourceMap": true,                     /* Generates corresponding '.map' file. */
+      "useUnknownInCatchVariables": false,
+
+      "checkJs": true,                       /* Report errors in .js files. */
+      "declaration": true,                   /* Generates corresponding '.d.ts' file. */
+      
+      "removeComments": true,                /* Do not emit comments to output. */
+    },
+    "include": ["src"]
+}
