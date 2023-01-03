@@ -1,5 +1,7 @@
 const path = require('path');
+const webpack = require('webpack');
 const nodeExternals = require('webpack-node-externals');
+
 module.exports = {
   target: "node",
   entry: {
@@ -13,4 +15,10 @@ module.exports = {
     filename: "server.js"
   },
   externals: [nodeExternals()],
+  plugins: [
+    new webpack.EnvironmentPlugin({
+      HOST: "0.0.0.0",
+      PORT: "8800",
+    })
+  ]
 };
